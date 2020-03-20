@@ -1,0 +1,272 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    background-color: #e7e7e7;
+    box-sizing: content-box;
+	margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+span {
+    font-weight: bold;
+}
+
+hr {
+    height: 0;
+    border-top: double;
+}
+
+/* slider section */
+.slider {
+    display: flex;
+    overflow: hidden;
+    height: 90vh;
+    background-color: whitesmoke;
+    margin-top: 15px;
+}
+
+.sllide__nav--button {
+    text-align: center;
+    height: 3rem;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 0.5rem 0;
+}
+
+.sllide__nav--button a {
+    width: 2rem;
+    height: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background: transparent;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    border-radius: 2px;
+    margin: 0 0 0.5rem 0;
+    font-weight: bold;
+    margin: 0 0.5rem;
+}
+
+.sllide__nav--button a:hover {
+    border: 2px solid black;
+    background-color: rgba(211, 211, 211, 0.548);
+}
+
+.slides img {
+    object-fit: cover;
+    width: 100%;
+}
+
+@media (max-width: 20rem) {
+    .slider {height: 28.5vh; margin-top: 2rem;}
+}
+
+@media (min-width: 20rem) and (max-width: 35rem) {
+    .slider {height: 39vh; margin-top: 2rem;}
+}
+
+@media (min-width: 35rem) and (max-width: 45.6rem) {
+    .slider {height: 50vh; margin-top: 2rem;}
+}
+
+@media (min-width: 45.6rem) and (max-width: 59rem) {
+    .slider {height: 68.5vh; margin-top: 2rem; padding: 0;}
+}
+
+/* about us */
+
+.aboutus {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    padding: 3rem 10%;
+    line-height: 1.5;
+    /* background: #e7e7e7;
+    box-shadow: 4px 4px 4px 4px black; */
+}
+
+.aboutus__intro {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutus__intro h1 {
+    text-align: center;
+    color: #560f0a;
+    padding: 1rem 0;
+    text-transform: uppercase;
+}
+
+.aboutus__why-us {
+    padding-top: 1rem;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Offering */
+
+#offerings {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    padding: 3rem 10%;
+    line-height: 1.5;
+    background-color: white;
+}
+
+.offerings__key-features {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.offerings__key-features h1 {
+    text-align: center;
+    color: #560f0a;
+    padding: 1rem 0;
+    text-transform: uppercase;
+}
+
+/* .offerings {
+    padding-top: 1rem;
+    display: block;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* services */
+
+#Services {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    padding: 3rem 10%;
+    line-height: 1.5;
+    background-color: whitesmoke;
+}
+
+.Services__key-features {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.Services__key-features h1 {
+    text-align: center;
+    color: #560f0a;
+    padding: 1rem 0;
+    text-transform: uppercase;
+}
+
+/* .Services__key-feature {
+    padding: 1rem;
+} */
+
+.Services__key-feature h3 {
+    text-transform: uppercase;
+}
+
+/* contact */
+
+#contact {
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    padding: 3rem 10%;
+    line-height: 1.5;
+    background-color: white;
+}
+
+/* .contact__us {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.contact__us h1 {
+    text-align: center;
+    color: #560f0a;
+    padding-top: 1rem;
+    text-transform: uppercase;
+}
+
+.contact__us--details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.address {
+    text-align: left;
+    width: 50%;
+    padding: 1rem;
+}
+
+.contact__us h2 {
+    color: coral;
+    font-weight: lighter;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+#Office-address h3 {
+    margin: 0;
+}
+
+.title h3 {
+    margin: 0;
+    padding-top: 1rem;
+}
+
+.contact__us--key-feature {
+    padding-bottom: 1rem;
+}
+
+.contact__us--key-feature h3 {
+    text-transform: uppercase;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+
+.contact__us--key-feature p {
+    margin: 0;
+    padding: 0;
+}
+
+/* google map */
+
+.map__location {
+    padding: 1rem;
+    width: 50%;
+    text-align: left;
+}
+
+.map__location--google iframe {
+   margin-top: 2rem;
+   border-radius: 8px;
+   box-shadow: 4px 3px 3px rgba(54, 52, 52, 0.548);
+}
+
+@media (max-width: 45.6rem) {
+    .contact__us--details {display: block;}
+    .address {text-align: center; width: 100%; padding: 1rem;}
+    .map__location {padding: 1rem; width: 100%; text-align: center;}
+}
