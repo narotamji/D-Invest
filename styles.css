@@ -75,7 +75,7 @@ body {
     .main__nav {display: block;}
     .main__nav--items {display: block;}
     .main__nav--item {display: block;}
-    .main__nav--item a {font-size: 3rem;}
+    .main__nav--item a {font-size: 2rem;}
     .main__header--brand img {width: 5rem;}
 }
 
@@ -83,7 +83,7 @@ body {
     .main__nav {display: block;}
     .main__nav--items {display: block;}
     .main__nav--item {display: block;}
-    .main__nav--item a {font-size: 3rem;} 
+    .main__nav--item a {font-size: 2rem;} 
     .main__header--brand img {width: 6rem;}
 }
 
