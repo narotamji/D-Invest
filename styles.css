@@ -72,11 +72,13 @@ body {
 }
 
 @media (max-width: 33.2rem) {
-    .main__nav--item a {font-size: 0.5rem; display: block;}
+    .main__nav--item {display: block;}
+    .main__nav--item a {font-size: 0.5rem;}
     .main__header--brand img {width: 5rem;}
 }
 
 @media (min-width: 33.2rem) and (max-width: 45.6rem) {
+    .main__nav--item {display: block;}
     .main__nav--item a {font-size: 0.8rem;  display: block;}
     .main__header--brand img {width: 6rem;}
 }
