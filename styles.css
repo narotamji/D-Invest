@@ -115,7 +115,7 @@ body {
 }
 
 .main__footer--links {
-    margin: 0 10px;
+    margin: 1rem 10px 0;
 }
 
 .main__footer--items {
@@ -138,6 +138,7 @@ body {
 
 .main__footer--contact {
     text-align: center;
+	margin: 1rem 10px 0;
 }
 
 .main__footer--contact a {
@@ -160,7 +161,7 @@ body {
 }
 
 @media (max-width: 45.6rem) {
-    .main__footer--about {width: 100%;}
+    .main__footer--about {width: 100%; margin: 1rem 0 0;}
     .main__footer--key-feature {display: block; text-align: center;}
     .main__footer--contact {margin-top: 3rem;}
 }
