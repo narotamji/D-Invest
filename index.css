@@ -19,12 +19,21 @@ hr {
 }
 
 /* slider section */
+
+.carousel {
+	text-align: center;
+	background-color: whitesmoke;
+	width: 100%;
+	margin-top: 3rem;
+}
+
+/* 
 .slider {
     display: flex;
     overflow: hidden;
     height: 90vh;
     background-color: whitesmoke;
-    margin-top: 15px;
+    margin-top: 1rem;
 }
 
 .sllide__nav--button {
@@ -56,6 +65,10 @@ hr {
     background-color: rgba(211, 211, 211, 0.548);
 }
 
+.slides {
+	margin: auto;
+}
+
 .slides img {
     object-fit: cover;
     width: 100%;
@@ -75,7 +88,8 @@ hr {
 
 @media (min-width: 45.6rem) and (max-width: 59rem) {
     .slider {height: 68.5vh; margin-top: 2rem; padding: 0;}
-}
+} */
+
 
 /* about us */
 
